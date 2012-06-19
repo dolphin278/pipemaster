@@ -1,0 +1,23 @@
+{
+  "author": "Boris Egorov <dolphin278@gmail.com> (http://dolphin278.net)",
+  "name": "pipemaster",
+  "description": "Bunch of esoteric tools to master nodejs streams and even build you own time machines.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dolphin278/pipemaster.git"
+  },
+  "main": "/lib/index.js",
+  "scripts": {
+    "test": "vows tests/*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vows": "~0.6.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
