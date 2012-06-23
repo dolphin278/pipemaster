@@ -17,7 +17,7 @@ vows.describe('filteringStream')
                 topic: function () { return filter; },
                 'when wrapped to stream' : {
                     topic: function (filterfunction) {
-                        return new StreamFilter(filterfunction);
+                        return new StreamFilter(filterfunction, false);
                     },
                     'became a StreamFilter stream' : function (streamFunc) {
                         assert.instanceOf(streamFunc, StreamFilter);
