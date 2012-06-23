@@ -1,7 +1,8 @@
 {
   "author": "Boris Egorov <dolphin278@gmail.com> (http://dolphin278.net)",
   "name": "pipemaster",
-  "description": "Bunch of esoteric tools to master nodejs streams and even build you own time machines.",
+  "description": "Tool to wrap your functions so they works as streams.",
+  "keywords": ["stream", "function", "pipe function", "wrap function"],
   "version": "0.0.0",
   "repository": {
     "type": "git",
