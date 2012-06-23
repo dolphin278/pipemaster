@@ -26,7 +26,7 @@ streamFunc.write(6);  // streamFunc emits '36'
 
 Sync functions also supported:
 
-```
+```javascript
 var FuncWrapper = require('pipemaster').FuncWrapper,
     streamFunc;
 
@@ -44,7 +44,7 @@ streamFunc.write(6);  // streamFunc emits '12'
 
 Based on `FuncWrapper`, it takes sync or async function that returns `true` or `false`, and emits `data` event only when function returns `true`. Filtering functions also can be both sync and async ones.
 
-```
+```javascript
 var StreamFilter = require('pipemaster').StreamFilter,
     streamFunc;
 function filterAsync(item, callback) {
