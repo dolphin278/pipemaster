@@ -3,7 +3,7 @@
   "name": "pipemaster",
   "description": "Tool to wrap your functions so they works as streams.",
   "keywords": ["stream", "function", "pipe function", "wrap function"],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/dolphin278/pipemaster.git"
